@@ -34,10 +34,10 @@ public class TestStackArray{
                break;
             case 2:
                if(stack.pop()){
-                  System.out.print("Successfully Popped.");
+                  System.out.println("Successfully Popped.");
                }
                else{
-                  System.out.print("Stack is empty");
+                  System.out.println("Stack is empty");
                }
                break;
                
@@ -53,7 +53,7 @@ public class TestStackArray{
                stack.display();
               break;
            case 5:
-               System.out.print("Thankyu!");
+               System.out.println("Thankyu!");
            break;         
            default:
                System.out.println("Invalid, Your choice is beyond the choices");   
